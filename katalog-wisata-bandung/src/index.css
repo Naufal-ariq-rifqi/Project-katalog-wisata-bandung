@@ -1,0 +1,49 @@
+:root {
+  --kabut: #eaf0eb;
+  --kertas: #ffffff;
+  --tinta: #16261f;
+  --tinta-redup: #4d5f56;
+  --garis: #c9d5cd;
+  --teh: #2b6a4d;
+  --teh-gelap: #17382b;
+  --belerang: #e3b53c;
+  --bata: #a64a32;
+  --danau: #2a6f8f;
+  --jingga: #8a5a12;
+
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.55;
+  color: var(--tinta);
+  background: var(--kabut);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, 'Times New Roman', serif;
+  line-height: 1.2;
+  margin: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid var(--belerang);
+  outline-offset: 2px;
+}
